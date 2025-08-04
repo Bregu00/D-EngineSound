@@ -312,7 +312,7 @@ Config.EngineSounds = {
 
 -- Framework compatibility
 Config.Framework = {
-    name = "qbx", -- "qb", "qbx", "esx", "custom"
+    name = "esx", -- "qb", "qbx", "esx", "custom"
     
     -- Player data paths (adjust based on your framework)
     playerDataPaths = {
@@ -323,8 +323,8 @@ Config.Framework = {
     
     -- Event names (adjust based on your framework)
     events = {
-        playerLoaded = "QBCore:Client:OnPlayerLoaded",
-        jobUpdate = "QBCore:Client:OnJobUpdate"
+        playerLoaded = "esx:Client:OnPlayerLoaded",
+        jobUpdate = "esx:Client:OnJobUpdate"
     }
 }
 
